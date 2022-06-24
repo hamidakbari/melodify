@@ -278,13 +278,7 @@ const MusicScreen = () => {
                     <strong>Artist: {music.artist}</strong>
                   </p>
                   <hr />
-                  <div>
-                    <span>Size :</span>
-                    <span>
-                      {(music.size.split(' ')[0] / (1024 * 1024)).toFixed(2) +
-                        ' MB'}
-                    </span>
-                  </div>
+
                   <p>Description: {music.description}</p>
                   <hr />
                   <div className="d-flex justify-content-between align-items-center">

@@ -5,7 +5,7 @@ const musicSchema = new mongoose.Schema(
     name: { type: String, required: true },
     artist: { type: String, required: true },
     slug: { type: String, required: true, unique: true },
-    size: { type: String, required: true },
+
     downloadLink: { type: String, required: true },
     rating: { type: Number, required: true },
     category: { type: String, required: true },
